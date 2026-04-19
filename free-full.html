@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VizelFreeFull</title>
+  <style>
+    body {
+      background: #050505;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .whats-included {
+      max-width: 1100px;
+      margin: 26px auto 0;
+      padding: 0 20px 70px;
+    }
+    .included-card {
+      background: linear-gradient(180deg,#070707 0%,#050505 100%);
+      border: 1px solid rgba(255,0,0,.18);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 0 26px rgba(255,0,0,.06);
+    }
+    .included-title {
+      font-size: 34px;
+      font-weight: 900;
+      margin-bottom: 18px;
+    }
+    .included-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+    .included-grid img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 16px;
+      border: 1px solid rgba(255,0,0,.18);
+      box-shadow: 0 0 18px rgba(255,0,0,.08);
+    }
+    @media (min-width: 900px) {
+      .included-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="whats-included">
+    <div class="included-card">
+      <div class="included-title">Whats Included</div>
+      <div class="included-grid">
+        <img src="free-full-included-1.png" alt="VizelFreeFull included screenshot 1" />
+        <img src="free-full-included-2.png" alt="VizelFreeFull included screenshot 2" />
+      </div>
+    </div>
+  </section>
+</body>
+</html>
